@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alex Ironside — developer portfolio</title>
+<meta name="description" content="Aleksander Ironside — senior full-stack developer. Live demos of side projects built with React, TypeScript, Node, Rust and Go.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#projects">Skip to projects</a>
+
+<header class="site-header" id="top">
+  <div class="wrap site-header__inner">
+    <a class="brand" href="#top">alex<span class="brand__dot">.</span>ironside</a>
+    <nav aria-label="Primary" class="nav-links">
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a class="nav-cta" href="https://github.com/alex-ironside" target="_blank" rel="noopener noreferrer">GitHub<span aria-hidden="true" class="arrow">&#8599;</span></a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section aria-labelledby="hero-h" class="wrap hero">
+    <p class="eyebrow">Senior full-stack developer</p>
+    <h1 id="hero-h" class="hero-title">I build scalable, accessible web apps &mdash; and side projects to try new ideas.</h1>
+    <p class="hero-lede">9+ years with React, TypeScript and Node &mdash; front-end architecture, serverless backends, performance and leading teams. The projects below are where I experiment with new stacks and AI-assisted coding.</p>
+    <div class="hero-actions">
+      <a class="btn btn--primary" href="#projects">View projects</a>
+      <a class="btn btn--ghost" href="https://github.com/alex-ironside" target="_blank" rel="noopener noreferrer">GitHub profile<span aria-hidden="true" class="arrow">&#8599;</span></a>
+    </div>
+  </section>
+
+  <section id="projects" aria-labelledby="projects-h" class="wrap projects">
+    <div class="projects__head">
+      <h2 id="projects-h">Side projects</h2>
+      <p class="projects__note">Live demos &mdash; no sign-up needed</p>
+    </div>
+    <div id="project-grid" class="grid">
+      <p id="grid-loading" class="grid__loading">Loading projects&hellip;</p>
+    </div>
+    <noscript>
+      <p class="grid__loading">This gallery needs JavaScript to list the projects. See them all on <a href="https://github.com/alex-ironside">my GitHub profile</a>.</p>
+    </noscript>
+  </section>
+
+  <section id="about" aria-labelledby="about-h" class="wrap about">
+    <h2 id="about-h">About</h2>
+    <p>Senior full-stack developer with 9+ years building scalable web applications in React, TypeScript and Node (Express, Nest.js, AWS serverless). I focus on front-end architecture, REST API design, performance, and mentoring teams. The projects here are my playground &mdash; where I try new stacks like Rust and Go, and lean hard on AI-assisted development.</p>
+  </section>
+</main>
+
+<footer class="wrap site-footer">
+  <p class="copyright">&copy; 2026 Aleksander Ironside</p>
+  <nav aria-label="Contact and links" class="footer-links">
+    <a href="https://github.com/alex-ironside" target="_blank" rel="noopener noreferrer">GitHub</a>
+    <a href="https://www.linkedin.com/in/aleksander-ironside/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    <a href="mailto:ironside.alexander@gmail.com">Email</a>
+  </nav>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

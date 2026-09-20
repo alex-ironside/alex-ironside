@@ -1,0 +1,69 @@
+[
+  {
+    "slug": "rdr2-inventory-tracker",
+    "title": "RDR2 Inventory Tracker",
+    "initial": "R",
+    "blurb": "Track crafting materials across Red Dead playthroughs, cell by cell. Works fully offline or synced to the cloud.",
+    "tags": ["Svelte 5", "PWA", "Firebase"],
+    "status": "live",
+    "live": "https://rdr2-tracker-b9864.web.app",
+    "code": null,
+    "featured": true
+  },
+  {
+    "slug": "dog-tracker",
+    "title": "Pack — dog-walk manager",
+    "initial": "P",
+    "blurb": "Roster and compatibility tracker for dog-walking groups: who walks well with whom, schedules and outcomes. English and Polish.",
+    "tags": ["React", "TypeScript", "i18n"],
+    "status": "live",
+    "live": "https://alex-ironside.github.io/dog-tracker/",
+    "code": "https://github.com/alex-ironside/dog-tracker",
+    "featured": true
+  },
+  {
+    "slug": "dark",
+    "title": "Dark — character graph",
+    "initial": "D",
+    "blurb": "An interactive family-tree graph untangling the timeline-bending cast of Netflix's Dark.",
+    "tags": ["React 19", "reagraph"],
+    "status": "live",
+    "live": "https://dark.aleksander3wielki.workers.dev",
+    "code": null,
+    "featured": true
+  },
+  {
+    "slug": "peak-finder",
+    "title": "Peak Finder",
+    "initial": "P",
+    "blurb": "Point your phone at a ridge, freeze the frame, and see the mountain peaks named over it. The whole resolver runs on-device in WebAssembly.",
+    "tags": ["Rust", "WebAssembly", "PWA"],
+    "status": "live",
+    "live": "https://peak-finder.pages.dev",
+    "note": "Use on a mobile phone — tested on iPhone 14 Pro.",
+    "code": null,
+    "featured": true
+  },
+  {
+    "slug": "shire",
+    "title": "Shire",
+    "initial": "S",
+    "blurb": "Aggregates Polish real-estate listings on one map, with a drive-time filter that hides anything outside your commute — built on OpenStreetMap and OSRM routing.",
+    "tags": ["React", "Rust", "Postgres"],
+    "status": "in-progress",
+    "live": null,
+    "code": null,
+    "featured": true
+  },
+  {
+    "slug": "thinmaxer",
+    "title": "Thinmaxer",
+    "initial": "T",
+    "blurb": "A free weight-loss and meal-prep planner. Offline-first, with a Go and Postgres backend built behind a clean repository seam.",
+    "tags": ["React", "Go", "Postgres"],
+    "status": "in-progress",
+    "live": null,
+    "code": null,
+    "featured": true
+  }
+]
