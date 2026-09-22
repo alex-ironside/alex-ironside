@@ -1,5 +1,31 @@
 [
   {
+    "slug": "shire",
+    "title": "Shire",
+    "initial": "S",
+    "blurb": "Aggregates Polish real-estate listings on one map, with a drive-time filter that hides anything outside your commute — built on OpenStreetMap and OSRM routing.",
+    "tags": ["React", "Rust", "Postgres"],
+    "status": "live",
+    "live": "https://152-70-170-248.sslip.io/",
+    "note": "Best used on a desktop computer.",
+    "noteIcon": "desktop",
+    "code": null,
+    "featured": true
+  },
+  {
+    "slug": "peak-finder",
+    "title": "Peak Finder",
+    "initial": "P",
+    "blurb": "Point your phone at a ridge, freeze the frame, and see the mountain peaks named over it. The whole resolver runs on-device in WebAssembly.",
+    "tags": ["Rust", "WebAssembly", "PWA"],
+    "status": "live",
+    "live": "https://peak-finder.pages.dev",
+    "note": "Use on a mobile phone — tested on iPhone 14 Pro.",
+    "noteIcon": "phone",
+    "code": null,
+    "featured": true
+  },
+  {
     "slug": "rdr2-inventory-tracker",
     "title": "RDR2 Inventory Tracker",
     "initial": "R",
@@ -29,29 +55,6 @@
     "tags": ["React 19", "reagraph"],
     "status": "live",
     "live": "https://dark.aleksander3wielki.workers.dev",
-    "code": null,
-    "featured": true
-  },
-  {
-    "slug": "peak-finder",
-    "title": "Peak Finder",
-    "initial": "P",
-    "blurb": "Point your phone at a ridge, freeze the frame, and see the mountain peaks named over it. The whole resolver runs on-device in WebAssembly.",
-    "tags": ["Rust", "WebAssembly", "PWA"],
-    "status": "live",
-    "live": "https://peak-finder.pages.dev",
-    "note": "Use on a mobile phone — tested on iPhone 14 Pro.",
-    "code": null,
-    "featured": true
-  },
-  {
-    "slug": "shire",
-    "title": "Shire",
-    "initial": "S",
-    "blurb": "Aggregates Polish real-estate listings on one map, with a drive-time filter that hides anything outside your commute — built on OpenStreetMap and OSRM routing.",
-    "tags": ["React", "Rust", "Postgres"],
-    "status": "in-progress",
-    "live": null,
     "code": null,
     "featured": true
   },

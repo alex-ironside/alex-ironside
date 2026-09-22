@@ -1,6 +1,9 @@
 const PHONE_ICON =
   '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="2" width="10" height="20" rx="2"></rect><line x1="11" y1="18" x2="13" y2="18"></line></svg>';
 
+const MONITOR_ICON =
+  '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>';
+
 function el(tag, className, text) {
   const node = document.createElement(tag);
   if (className) node.className = className;
@@ -33,12 +36,12 @@ function card(project) {
 
   if (project.note) {
     const note = el("p", "note");
-    note.innerHTML = PHONE_ICON;
+    note.innerHTML = project.noteIcon === "desktop" ? MONITOR_ICON : PHONE_ICON;
     note.append(document.createTextNode(project.note));
     article.append(note);
   }
 
-  if (isLive && project.live) {
+  if (project.live) {
     const link = el("a", "live-link");
     link.href = project.live;
     link.target = "_blank";
@@ -62,9 +65,7 @@ async function render() {
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const projects = await res.json();
     grid.textContent = "";
-    const live = projects.filter((p) => p.status === "live");
-    const rest = projects.filter((p) => p.status !== "live");
-    for (const p of [...live, ...rest]) grid.append(card(p));
+    for (const p of projects) grid.append(card(p));
   } catch (err) {
     grid.innerHTML =
       'Could not load the project list. See them on <a href="https://github.com/alex-ironside">my GitHub profile</a>.';
