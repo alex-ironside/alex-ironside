@@ -65,7 +65,10 @@ async function render() {
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const projects = await res.json();
     grid.textContent = "";
-    for (const p of projects) grid.append(card(p));
+    for (const p of projects) {
+      if (p.monitor_only) continue;
+      grid.append(card(p));
+    }
   } catch (err) {
     grid.innerHTML =
       'Could not load the project list. See them on <a href="https://github.com/alex-ironside">my GitHub profile</a>.';
