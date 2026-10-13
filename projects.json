@@ -68,5 +68,17 @@
     "live": null,
     "code": null,
     "featured": true
+  },
+  {
+    "slug": "shroommaxer",
+    "title": "Shroommaxer",
+    "initial": "S",
+    "blurb": "Wild-mushroom fruiting predictor and offline map of known spots across Poland. Private, two-user, behind basic auth.",
+    "tags": ["Svelte 5", "Go", "PWA"],
+    "status": "live",
+    "live": "https://shroom.152-70-170-248.sslip.io/health",
+    "code": null,
+    "featured": false,
+    "monitor_only": true
   }
 ]
