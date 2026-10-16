@@ -13,7 +13,7 @@ hard on AI-assisted development.
 
 | Project | What it is | Stack | |
 | --- | --- | --- | --- |
-| **Shire** 🖥️ | Polish real-estate listings on one map, with a drive-time filter that hides anything outside your commute. *Best used on a desktop computer.* | React · Rust · Postgres | [Open ↗](https://152-70-170-248.sslip.io/) |
+| **Shire** 🖥️ | Polish real-estate listings on one map, with a drive-time filter that hides anything outside your commute. *Best used on a desktop computer.* | React · Rust · Postgres | [Open ↗](https://91-99-141-130.sslip.io/) |
 | **Peak Finder** 📱 | AR peak identification for Polish mountains — resolver runs on-device in WebAssembly. *Use on a mobile phone (tested on iPhone 14 Pro).* | Rust · WASM · PWA | [Open ↗](https://peak-finder.pages.dev) |
 | **RDR2 Inventory Tracker** | Track crafting materials across playthroughs — offline or synced | Svelte 5 · PWA · Firebase | [Open ↗](https://rdr2-tracker-b9864.web.app) |
 | **Pack** | Roster & compatibility manager for dog-walking groups (EN/PL) | React · TypeScript · i18n | [Open ↗](https://alex-ironside.github.io/dog-tracker/) |

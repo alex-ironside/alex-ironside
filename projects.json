@@ -6,7 +6,7 @@
     "blurb": "Aggregates Polish real-estate listings on one map, with a drive-time filter that hides anything outside your commute — built on OpenStreetMap and OSRM routing.",
     "tags": ["React", "Rust", "Postgres"],
     "status": "live",
-    "live": "https://152-70-170-248.sslip.io/",
+    "live": "https://91-99-141-130.sslip.io/",
     "note": "Best used on a desktop computer.",
     "noteIcon": "desktop",
     "code": null,
@@ -76,7 +76,7 @@
     "blurb": "Wild-mushroom fruiting predictor and offline map of known spots across Poland. Private, two-user, behind basic auth.",
     "tags": ["Svelte 5", "Go", "PWA"],
     "status": "live",
-    "live": "https://shroom.152-70-170-248.sslip.io/health",
+    "live": "https://shroom.91-99-141-130.sslip.io/health",
     "code": null,
     "featured": false,
     "monitor_only": true
